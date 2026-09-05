@@ -18,7 +18,7 @@ export default function Modal({ title, onClose, children, wide }) {
   }, [onClose]);
 
   return (
-    <div className="fixed inset-0 bg-stone-900/40 flex items-start sm:items-center justify-center z-50 p-0 sm:p-4 overflow-y-auto">
+    <div className="fixed inset-0 bg-stone-900/40 flex items-start justify-center z-50 p-0 sm:p-4 overflow-y-auto">
       <div
         role="dialog"
         aria-modal="true"
